@@ -1,5 +1,5 @@
 const main = document.querySelector('#main');
-const paragraph = document.querySelector('p');
+const paragraph = document.querySelector('p div');
 
 main.addEventListener('click', (event) => {
   console.log('I was clicked');
