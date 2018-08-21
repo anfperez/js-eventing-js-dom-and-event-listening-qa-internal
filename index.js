@@ -8,4 +8,5 @@ main.addEventListener('click', (event) => {
 
 paragraph.addEventListener('click', (event) => {
   alert('you clicked the p!');
+  paragraph.style.backgroundColor = 'yellow';
 })
