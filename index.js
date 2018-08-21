@@ -7,7 +7,7 @@ function bubble(event) {
   console.log(this.firstChild.nodeValue.trim() + ' bubbled');
 }
 
-for (div of divs) {
+for (let div of divs) {
   div.addEventListener('click', bubble);
 }
 main.addEventListener('click', (event) => {
