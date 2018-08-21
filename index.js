@@ -19,7 +19,7 @@ paragraph.addEventListener('click', (event) => {
   paragraph.style.backgroundColor = 'yellow';
 })
 
-const input = document.querySelector('input');
+const input = document.querySelector('label');
 
 input.addEventListener('keydown', (event) => {
   console.log(event);
