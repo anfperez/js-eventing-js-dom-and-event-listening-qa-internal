@@ -19,4 +19,4 @@ paragraph.addEventListener('click', (event) => {
   paragraph.style.backgroundColor = 'yellow';
 })
 
-const 
+const input = document.querySelector('')
